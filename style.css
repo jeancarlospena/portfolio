@@ -91,6 +91,9 @@ a, p{
 .web-body > *{
   padding: 5px;
 }
+.contact{
+  padding-bottom: 10px;
+}
 
 @media(max-width: 800px){
   body{
