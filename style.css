@@ -92,7 +92,7 @@ a, p{
   padding: 5px;
 }
 .contact{
-  padding-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 @media(max-width: 800px){
