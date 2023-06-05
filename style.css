@@ -91,6 +91,11 @@ a, p{
 .web-body > *{
   padding: 5px;
 }
+.web-body-padd > *{
+  padding: 5px 0;
+}
+
+
 .contact{
   margin-bottom: 20px;
 }
