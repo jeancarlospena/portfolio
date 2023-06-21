@@ -72,7 +72,12 @@ body{
 }
 a, p{
   font-weight: 200;
-  
+  color: rgb(0, 0, 0);
+}
+p.project{
+  border-left: 4px double #977e65;
+  padding-left: 15px;
+  box-shadow: 4px;
 }
 
 .web-body-intro{
@@ -90,7 +95,8 @@ a, p{
 }
 
 .web-body > *{
-  padding: 5px;
+  /* padding: 5px; */
+  margin: 15px;
 }
 .web-body-padd > *{
   padding: 5px 0;
