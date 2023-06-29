@@ -53,14 +53,17 @@ table {
 img{
   height: 275px;
   width: 275px;
-  border-radius: 15%;
   margin: 0 0 0 5px;
   /* border: 2px solid #7e726f; */
 }
 body{
-  background-color: #e2d8ce;
+  background-color: #ece4df;
   font-family: 'Inter', sans-serif;
-  max-width: 1000px;
+  /* max-width: 1000px; */
+  
+}
+.container{
+  max-width: 1200px;
   margin: 0 auto;
 }
 .heading{
@@ -69,13 +72,15 @@ body{
   text-align: center;
   /* border-bottom: 1px solid black; */
   padding: 30px 0 25px;
+  margin-bottom: 20px;
+  background-color: #877a6c;
 }
 a, p{
   font-weight: 200;
   color: rgb(0, 0, 0);
 }
 p.project{
-  border-left: 4px double #977e65;
+  border-left: 2px solid #877a6c;
   padding-left: 15px;
   box-shadow: 4px;
 }
@@ -116,6 +121,7 @@ p.project{
     text-align: center;
     /* border-bottom: 1px solid black; */
     padding: 20px 0 15px;
+    margin-bottom: 0;
   }
   .web-body{
     flex-direction: column;
